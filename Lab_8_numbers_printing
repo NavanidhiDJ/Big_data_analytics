@@ -1,0 +1,22 @@
+Scala Program to Print Numbers from 1 to 100
+using for loop
+object PrintNumbers {
+def main(args: Array[String]): Unit = {
+
+for(i &lt;- 1 to 100) {
+println(i)
+}
+
+}
+}
+
+Steps to Run in Ubuntu
+1. Create file
+nano PrintNumbers.scala
+
+2. Paste the code and save
+3. Compile
+scalac PrintNumbers.scala
+
+4. Run
+scala PrintNumbers
